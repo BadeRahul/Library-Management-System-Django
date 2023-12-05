@@ -1,35 +1,33 @@
 # Library-Management-System-Django
 
-# import this in system --> celery 
+import this in system --> celery 
 
 
-# Settings.py 
+In Settings.py 
 from celery import Celery
 from celery.schedules import crontab
 
-# NOTICE:
-  # The roles should be approved by the admin in the admin site.....
+NOTICE:
+  The roles should be approved by the admin in the admin site.....
 
-# TWO ROLES:
+TWO ROLES:
     1.LIBRARIAN
     2.STUDENT
+1.Librarian:
+    Librarian can access all the features in system.
+    Where he can add books,delete books,issuebook to the students,view all students in the management etc...
+2.Student:
+    Student can view their profile,change their account password,request books,and etc..
 
-  # 1.Librarian:
-        Librarian can access all the features in system.
-        Where he can add books,delete books,issuebook to the students,view all students in the management etc...
-
-  # 2.Student:
-        Student can view their profile,change their account password,request books,and etc..
-
-# admin -->
+admin credintials
     username : admin
     password : rahul@1234
 
-# librarian -->
+librarian credintials
      username: librarian
      password: rahul@1234
 
-# student -->
+student credintials
       username : rahul
       password : rahul@1234
 
