@@ -5,32 +5,39 @@ import this in system --> celery
 
 
 **In Settings.py**
-  -from celery import Celery
-  -from celery.schedules import crontab
+  - from celery import Celery
+  - from celery.schedules import crontab
 
 **NOTICE:**
-  -The roles should be approved by the admin in the admin site.....
+  - The roles should be approved by the admin in the admin site.....
+
 
 **TWO ROLES:**
-    -1.LIBRARIAN
-    -2.STUDENT
+  - 1.LIBRARIAN
+  - 2.STUDENT
+
+
 **1.Librarian:**
-    -Librarian can access all the features in system.
-    -Where he can add books,delete books,issuebook to the students,view all students in the management etc...
+  - Librarian can access all the features in system.
+  - Where he can add books,delete books,issuebook to the students,view all students in the management etc...
+
 **2.Student:**
-    -Student can view their profile,change their account password,request books,and etc..
+  - Student can view their profile,change their account password,request books,and etc..
+
 
 **admin credintials**
-    -username : admin
-    -password : rahul@1234
+  - username : admin
+  - password : rahul@1234
+
 
 **librarian credintials**
-     -username: librarian
-     -password: rahul@1234
+  - username: librarian
+  - password: rahul@1234
+
 
 **student credintials**
-      -username : rahul
-      -password : rahul@1234
+  - username : rahul
+  - password : rahul@1234
 
 **Here some of the attachments to provide basic knowledge on this project...**
 
