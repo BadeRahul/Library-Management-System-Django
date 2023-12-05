@@ -3,6 +3,7 @@
 import this in system --> celery 
 
 
+
 In Settings.py 
 from celery import Celery
 from celery.schedules import crontab
